@@ -6,8 +6,8 @@ Automated reference trajectory extraction and single-particle tracking (SPT) pip
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/xxx/OligoLiveFish-ML.git
-cd OligoLiveFish-ML/trajectory_extraction/pipeline
+git clone https://github.com/QilabGitHub/Oligo-LiveFish-ML.git
+cd Oligo-LiveFish-ML/trajectory_extraction/pipeline
 
 # 2. Install Python dependencies
 pip install -r requirements.txt
