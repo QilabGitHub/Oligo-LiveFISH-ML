@@ -323,5 +323,5 @@ The output trajectory should be the same as manual and interactive analysis resu
 
 | Script | Description |
 |--------|-------------|
-| `spt.m` | Interactive 2D Gaussian fitting code written by Yanyu Zhu. Taking any .tif image as input, generating .mat as output. |
+| `spt.m` | Interactive 2D Gaussian fitting code adapted by Yanyu Zhu from Matlab. Taking any .tif image as input, generating .mat as output. |
 | `export_trajectories.py` | Run `python3 export_trajectories.py XX.mat` with the output from `spt.m` to generate .csv files with trajectories saved in matlab_trajectory/ |
