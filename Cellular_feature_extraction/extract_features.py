@@ -679,8 +679,8 @@ def main():
         # Convert nm -> full-image pixel coordinates
         if traj_data['format'] == 'pipeline':
             # Kevin's pipeline: coordinates already relative to whole image
-            traj_data['x_px_full'] = traj_data['x_nm'] / pixel_size
-            traj_data['y_px_full'] = traj_data['y_nm'] / pixel_size
+            traj_data['x_px_full'] = traj_data['x_nm'] / pixel_size - 1
+            traj_data['y_px_full'] = traj_data['y_nm'] / pixel_size - 1
         else:
             # ThunderSTORM legacy: coordinates relative to ROI crop
             # Try to find matching ROI for offset
